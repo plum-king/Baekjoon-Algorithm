@@ -7,7 +7,7 @@ def solution(n):
         arr6.append(i*6)
     for j in range(1, 7):
         arrN.append(j*n)
-
+    big =  n * 6
     t = False
     for s in range(len(arr6)):
         for m in range(len(arrN)):
