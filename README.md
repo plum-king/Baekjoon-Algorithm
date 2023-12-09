@@ -27,5 +27,11 @@
 <br>
 
 **[1181. 단어 정렬](./문자열/1181.py)**
-
-
+- sort(): 리스트.sort()
+    - sort(key=?): ?에 어떤 걸 기준으로 정렬할 것인지 작성 (EX) `sort(key=len)`
+- strip(): 연속으로 입력 받을 때 '\n' 삭제할 수 있는 함수 (EX) `sys.stdin.readline().strip()`
+- set(): 중복을 제거할 수 있는 함수 (EX) `b리스트 = list(set(a리스트))`
+    - list() 없이 set만 사용하고 리스트에 저장하려고 하면 리스트 형태가 아닌    
+    {'but', 'wont', 'it', 'hesitate', 'more', 'wait', 'yours', 'i', 'cannot', 'im', 'no'}   
+    이와 같은 형태로 나타나게 된다.
+    
