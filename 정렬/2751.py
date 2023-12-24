@@ -5,7 +5,7 @@ n = int(sys.stdin.readline())
 num_list = list()
 
 for i in range(n):
-    num_list.append(int(input()))
+    num_list.append(int(sys.stdin.readline()))
 
 num_list.sort()
 
