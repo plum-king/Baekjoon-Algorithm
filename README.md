@@ -92,3 +92,16 @@
 
 ### 01.22 ~ 01.28
 **[10773. 제로](./자료구조/10773.py)**
+<br>
+
+**[2164. 카드2](./자료구조/2164.py)**
+- deque 라이브러리 사용
+    - import 방법: from collections import deque
+    - deque 생성: `dec = deque()`
+    - 사용 가능한 method: deque.append(), deque.pop(), deque.popleft() 등
+        - deque.pop(): 오른쪽 인자 가져와서 삭제
+        - deque.popleft(): 왼쪽 인자 가져와서 삭제
+        - deque.appendleft(item): 왼쪽 끝에 item 추가 
+<br>
+
+**[1244. 스위치 켜고 끄기](./구현/1244.py)**
