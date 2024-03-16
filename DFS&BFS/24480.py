@@ -4,7 +4,7 @@ sys.setrecursionlimit(10 ** 6)
 n, m, r = map(int, sys.stdin.readline().split())
 graph = [[] for _ in range(n+1)]
 sorted_graph = [[] for _ in range(n+1)]
-visited = [0] * (m+1)
+visited = [0] * (n+1)
 
 for i in range(m):
     a, b = map(int, sys.stdin.readline().split())
